@@ -1,0 +1,107 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1040px;
+    width: 96%;
+    margin: 0 auto;
+}
+
+.hero{
+    height: 100vh;
+    background-image: url("../images/hero-cover.3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.header__row{
+    padding-top: 19px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+.menu{
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    padding: 0 45px 0 83px;
+    display: flex;
+}
+
+.menu__item+.menu__item{
+    margin-left: 21px;
+}
+
+.menu__item:last-child{
+    margin-left: auto;
+}
+
+.menu__item a{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.menu__item a:hover{
+    color: #23A6F0;
+}
+
+.header__button{
+    background-color: #23A6F0;
+    border: 1px solid #23A6F0;
+    color: #FFFFFF;
+    padding: 15px 25px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    transition: 0.3;
+}
+
+.header__button svg{
+    margin-left: 15px;
+}
+
+.header__button:hover{
+    background-color: #FFFFFF;
+    color: #23A6F0;
+}
+
+.header{
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+
+.hero__content{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 90px 0;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.hero__content h1{
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 80px;
+    text-align: center;
+    letter-spacing: 0.2px;
+}
